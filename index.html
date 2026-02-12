@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto de Transporte e Infraestructura - El Salvador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <meta name="description"
+        content="Proyecto de transporte e Infraestructura resiliente de El Salvador, financiado por el Banco Mundial. Consulta documentos, noticias y contactos.">
+    <meta property="og:title" content="Proyecto de Transporte e Infraestructura - El Salvador">
+    <meta property="og:description"
+        content="Sitio oficial del Proyecto de transporte e Infraestructura resiliente de El Salvador. Información sobre obras, documentos y transparencia.">
+    <meta property="og:image" content="img/imagen/FOTO PRINCIPAL.png">
+    <meta property="og:type" content="website">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'footer-bg': '#2b303b',
+                        'footer-text': '#d1d1d1',
+                    },
+                    fontFamily: {
+                        'poppins': ['Poppins', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom CSS Removed in favor of Tailwind */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0f172a;
+            /* Fallback/Safety */
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Background image for the whole page -->
+    <div class="bg-[#0f172a] min-h-screen font-poppins text-white pb-20 bg-cover bg-center bg-fixed bg-no-repeat"
+        style="background-image: url('img/imagen/IMAGEN DE FONDO.png');"> <!-- Main Wrapper -->
+
+        <div class="max-w-[1200px] mx-auto px-4 pt-6">
+
+            <!-- HERO SECTION -->
+            <div class="relative w-full h-[500px] md:h-[600px] rounded-[30px] overflow-hidden shadow-2xl mb-12 group">
+                <!-- Background Image -->
+                <img src="img/imagen/FOTO PRINCIPAL.png" alt="Proyecto de transporte"
+                    class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+
+                <!-- Overlay Gradient -->
+                <div class="absolute inset-0 bg-gradient-to-t from-[#0f172a] via-black/20 to-transparent opacity-90">
+                </div>
+
+                <!-- Floating contents -->
+                <div class="absolute inset-0 flex flex-col justify-end p-8 md:p-12">
+
+                    <!-- Top Right Button -->
+                    <!-- Middle Right Button -->
+                    <a href="#"
+                        class="absolute right-8 md:right-12 top-1/2 -translate-y-1/2 z-20 bg-white text-[#0f172a] px-5 py-2 rounded-full font-bold text-sm flex items-center gap-2 shadow-lg hover:bg-gray-100 transition-colors">
+                        <span class="text-xl leading-none">+</span> Más información
+                    </a>
+
+                    <!-- Main Title Area -->
+                    <div class="mb-16 md:mb-10 max-w-2xl relative z-10">
+                        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight tracking-tight drop-shadow-lg">
+                            Proyecto de transporte e<br>
+                            Infraestructura resiliente de<br>
+                            <span class="text-[#d7fff6]">EL SALVADOR</span> <!-- Updated color -->
+                        </h1>
+                    </div>
+
+                    <!-- Hero Footer Strip -->
+                    <div
+                        class="absolute bottom-0 left-0 right-0 bg-[#1e293b]/90 backdrop-blur-sm border-t border-white/10 px-8 py-4 flex flex-col md:flex-row justify-between items-center gap-4 md:gap-0">
+                        <div class="text-sm font-medium text-gray-300 text-center md:text-left">
+                            <p>Financiado con fondos del Banco Mundial mediante</p>
+                            <p class="font-bold text-white">Convenios de Préstamo BIRF No 9602-SV y 9836-SV</p>
+                        </div>
+                        <div>
+                            <img src="img/iconos/LOGO BANCO MUNDIAL.png" alt="Grupo Banco Mundial"
+                                class="h-8 md:h-10 brightness-0 invert">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- GRID LAYOUT FOR CONTENT -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-16">
+
+                <!-- LEFT COLUMN: Documents & FAQ -->
+                <div class="lg:col-span-7 flex flex-col gap-8">
+
+                    <!-- OBRAS HEADER -->
+                    <div>
+                        <a href="#"
+                            class="relative block w-full md:w-auto mb-6 group transition-transform hover:scale-105">
+                            <img src="img/iconos/BOTON 1.png" alt="Obras e Infraestructura"
+                                class="w-full h-[60px] object-cover shadow-lg rounded-lg">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <span
+                                    class="text-white font-bold text-lg md:text-xl tracking-widest uppercase drop-shadow-md">OBRAS
+                                    E INFRAESTRUCTURA</span>
+                            </div>
+                        </a>
+                    </div>
+
+
+                    <!-- DOCUMENTS SECTION -->
+                    <div class="bg-[#1e293b]/50 rounded-2xl p-6 border border-white/5 shadow-xl">
+                        <a href="#"
+                            class="relative block w-full md:w-auto mb-6 group transition-transform hover:scale-105">
+                            <img src="img/iconos/BOTON 2.png" alt="Documentos Disponibles"
+                                class="w-full h-[60px] object-cover shadow-lg rounded-lg">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <span
+                                    class="text-white font-bold text-lg md:text-xl tracking-widest uppercase drop-shadow-md">DOCUMENTOS
+                                    DISPONIBLES</span>
+                            </div>
+                        </a>
+
+                        <ul class="space-y-4">
+                            <li class="flex items-start gap-3 group cursor-pointer">
+                                <span
+                                    class="bg-white text-[#0ea5e9] rounded-full p-1 mt-0.5 group-hover:bg-[#0ea5e9] group-hover:text-white transition-colors">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 5l7 7-7 7" />
+                                    </svg>
+                                </span>
+                                <span class="text-gray-200 group-hover:text-white transition-colors">Plan de Compromisos
+                                    Ambientales y Sociales <strong class="text-white">(PCAS)</strong>.</span>
+                            </li>
+                            <li class="flex items-start gap-3 group cursor-pointer">
+                                <span
+                                    class="bg-white text-[#0ea5e9] rounded-full p-1 mt-0.5 group-hover:bg-[#0ea5e9] group-hover:text-white transition-colors">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 5l7 7-7 7" />
+                                    </svg>
+                                </span>
+                                <span class="text-gray-200 group-hover:text-white transition-colors">Estudio de Impacto
+                                    Ambiental y Social <strong class="text-white">(EIAS)</strong>.</span>
+                            </li>
+                            <li class="flex items-start gap-3 group cursor-pointer">
+                                <span
+                                    class="bg-white text-[#0ea5e9] rounded-full p-1 mt-0.5 group-hover:bg-[#0ea5e9] group-hover:text-white transition-colors">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 5l7 7-7 7" />
+                                    </svg>
+                                </span>
+                                <span class="text-gray-200 group-hover:text-white transition-colors">Plan de
+                                    Reasentamiento <strong class="text-white">(PR)</strong>.</span>
+                            </li>
+                            <li class="flex items-start gap-3 group cursor-pointer">
+                                <span
+                                    class="bg-white text-[#0ea5e9] rounded-full p-1 mt-0.5 group-hover:bg-[#0ea5e9] group-hover:text-white transition-colors">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 5l7 7-7 7" />
+                                    </svg>
+                                </span>
+                                <span class="text-gray-200 group-hover:text-white transition-colors">Plan de
+                                    Participación de Partes Interesadas <strong
+                                        class="text-white">(PPPI)</strong>.</span>
+                            </li>
+                            <li class="flex items-start gap-3 group cursor-pointer">
+                                <span
+                                    class="bg-white text-[#0ea5e9] rounded-full p-1 mt-0.5 group-hover:bg-[#0ea5e9] group-hover:text-white transition-colors">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 5l7 7-7 7" />
+                                    </svg>
+                                </span>
+                                <span class="text-gray-200 group-hover:text-white transition-colors">Plan de Gestión de
+                                    Mano de Obra <strong class="text-white">(PGMO)</strong>.</span>
+                            </li>
+                            <li class="flex items-start gap-3 group cursor-pointer">
+                                <span
+                                    class="bg-white text-[#0ea5e9] rounded-full p-1 mt-0.5 group-hover:bg-[#0ea5e9] group-hover:text-white transition-colors">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 5l7 7-7 7" />
+                                    </svg>
+                                </span>
+                                <span class="text-gray-200 group-hover:text-white transition-colors">Análisis
+                                    Preliminar.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- FAQ SECTION -->
+                    <div class="bg-[#1e293b]/50 rounded-2xl p-6 border border-white/5 shadow-xl mt-4">
+                        <a href="#"
+                            class="relative block w-full md:w-auto mb-6 group transition-transform hover:scale-105">
+                            <img src="img/iconos/BOTON 3.png" alt="Preguntas Frecuentes"
+                                class="w-full h-[60px] object-cover shadow-lg rounded-lg">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <span
+                                    class="text-white font-bold text-lg md:text-xl tracking-widest uppercase drop-shadow-md">Preguntas
+                                    Frecuentes</span>
+                            </div>
+                        </a>
+                        <p class="text-gray-300 ml-14">
+                            Puedes consultar o presentar una queja en cualquier momento a través de los siguientes
+                            medios:
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- RIGHT COLUMN: Images -->
+                <div class="lg:col-span-5 flex flex-col gap-6">
+                    <div class="rounded-2xl overflow-hidden shadow-2xl border-4 border-white/10 relative group">
+                        <img src="img/imagen/FOTO SECUNDARIA.png" alt="Vista del puente"
+                            class="w-full h-auto transform transition-transform duration-500 group-hover:scale-105">
+                        <div class="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors"></div>
+                    </div>
+                    <div class="rounded-2xl overflow-hidden shadow-2xl border-4 border-white/10 relative group">
+                        <img src="img/imagen/Puente-Atirantado-editada2.png" alt="Otra vista del puente"
+                            class="w-full h-auto transform transition-transform duration-500 group-hover:scale-105">
+                        <div class="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors"></div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- CONTACT SECTION GRID -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12 border-t border-white/10 pt-12">
+                <!-- COL 1 -->
+                <div class="space-y-2">
+                    <h4 class="font-bold text-white text-sm uppercase tracking-wider">Oficina de Información y Atención
+                        a la Comunidad (OIAC)</h4>
+                    <p class="text-xs text-gray-400 leading-relaxed">
+                        Carretera de Oro, Km. 11, kilómetro 13 ½, a 200 m. altura desvío de Carretera Texaco El Arenal,
+                        San Salvador.
+                    </p>
+                </div>
+
+                <!-- COL 2 -->
+                <div class="space-y-2">
+                    <h4 class="font-bold text-white text-sm uppercase tracking-wider">Unidad Ejecutora MOPT:</h4>
+                    <div class="text-xs text-gray-400 leading-relaxed space-y-1">
+                        <p>TELÉFONO: <span class="text-white">2528-3070</span></p>
+                        <p>WHATSAPP: <span class="text-white">7524-8622</span></p>
+                        <p>email: <a href="mailto:social.ptire@mop.gob.sv"
+                                class="text-[#0ea5e9] hover:underline">social.ptire@mop.gob.sv</a></p>
+                    </div>
+                </div>
+
+                <!-- COL 3 -->
+                <div class="space-y-2">
+                    <h4 class="font-bold text-white text-sm uppercase tracking-wider">Oficina de Gerencia de Gestión
+                        Social del MOPT:</h4>
+                    <div class="text-xs text-gray-400 leading-relaxed space-y-1">
+                        <p>Ex-Casa Presidencial, Carretera a Santa Tecla Km. 5, San Salvador.</p>
+                        <p>TELÉFONO: <span class="text-white">2528-3054</span></p>
+                    </div>
+                </div>
+
+                <!-- COL 4 -->
+                <div class="space-y-2">
+                    <h4 class="font-bold text-white text-sm uppercase tracking-wider">Oficina de Información y Respuesta
+                        (OIR)</h4>
+                    <div class="text-xs text-gray-400 leading-relaxed space-y-1">
+                        <p>TELÉFONO: <span class="text-white">2528-3218</span></p>
+                        <p>email: <a href="mailto:oir@mop.gob.sv"
+                                class="text-[#0ea5e9] hover:underline">oir@mop.gob.sv</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- End Max Width Container -->
+
+    </div> <!-- End Main Wrapper -->
+
+    <!-- Footer remains at the bottom, outside the main content wrapper (or inside if we want it part of the flow) -->
+    <!-- Since the main wrapper has min-h-screen and pb-20, and the actual footer was below the main container in original code, I'll place it after the wrapper, but user might want it at the very bottom.
+    The original code had footer AFTER main-container. 
+    However, I closed the main-wrapper div above. The footer code is below this replacement block in the original file. 
+    I should verify if I need to move the footer inside or keep it outside.
+    Original was: 
+    <body>
+       <div class="main-container">...</div>
+       <footer>...</footer>
+    </body>
+    
+    My replacement ends at line 444 which is the closing tag of footer? No, wait.
+    The REPLACE tool target content was NOT the footer.
+    I targeted `div class="main-container"` ... through ... `</div>` (line 392).
+    
+    Wait, I need to check my StartLine and EndLine carefully.
+    Original file:
+    303: <div class="main-container">
+    ...
+    392: </div>
+    
+    395: <footer ...
+    
+    I want to replace everything from `<body>` start (301) to just before `<footer>` (394)?
+    
+    Actually, let's look at the `view_file` output again.
+    301: <body>
+    303:     <div class="main-container">
+    ...
+    392:     </div>
+    395:     <footer...
+    
+    I will replace lines 303 to 392 with the new structure.
+    BUT, I want to wrap everything in a new Body structure or just replace the main container.
+    The new design has a full page background color.
+    The footer needs to sit on this background or have its own.
+    The footer has `bg-footer-bg`.
+    
+    If I replace `.main-container`, I can put the new structure there.
+    But I also want to remove the specific `padding-bottom` on body and background image on body style which are in the `<style>` tag?
+    Yes, I should also clean up the `<style>` tag since I'm switching to Tailwind.
+    
+    Let's do this in two steps or one big step?
+    Step 1: Replace the entire `<body>` content (excluding scripts at bottom/top if any) or just the main container div.
+    
+    Let's replace lines 303 to 392 (the main container) with the new HTML.
+    AND I need to update the `<footer>` to match the width/style if needed, but it looks okay.
+    
+    However, the `body` tag has styles in the `<head>` that I should overwrite or remove.
+    I already have a task to "Remove custom footer CSS", I should also remove the other custom CSS.
+    
+    Let's just replace the `.main-container` div first.
+    
+    Note: The new structure has a wrapper `bg-[#0f172a]`. If I put this inside `body`, and `body` has that background image, it might conflict or look weird if not covering 100%.
+    I will add the wrapper around the main content.
+    
+    I will targeting lines 303 to 392. 
+    
+    One detail: The original footer is OUTSIDE the main-container.
+    If I want the Dark Background to span the whole page including footer, I should wrap everything.
+    Or just let the footer have its own bg (which it does: `bg-footer-bg` #2b303b).
+    The main content has `#0f172a` (darker blue).
+    This looks correct.
+    
+    So I will just replace the `.main-container` block.
+    
+    Wait, in the previous `view_file` output (Step 66), the Footer starts at line 395.
+    I will replace lines 303 to 392.
+    
+    One more thing: I should probably remove the `background-image` from the `body` selector in CSS, otherwise it might show through.
+    Use `replace_file_content` for that too?
+    I can use `multi_replace_file_content` to do both.
+    
+    1. Update CSS: Remove body background image stuff.
+    2. Update HTML: Replace Main Container.
+    
+    Let's refine the HTML replacement to allow the footer to live comfortably below.
+    The footer is using `fixed` or `sticky`? No, it's `relative` now.
+    
+    Let's go.
+    
+
+    <!-- MAIN FOOTER -->
+    <footer
+        class="relative bg-footer-bg text-white py-10 px-[50px] flex flex-col lg:flex-row justify-between items-center text-sm font-poppins gap-8 lg:gap-0 text-center lg:text-left">
+
+        <!-- Izquierda: Información de contacto -->
+        <div class="flex-1 flex flex-col gap-4 items-center lg:items-start">
+            <div class="flex items-start gap-4 text-left">
+                <img src="img/iconos/ICONO  HOME .png" alt="Dirección" class="w-6 h-auto shrink-0 mt-[3px]">
+                <p class="m-0 leading-snug text-footer-text">
+                    Ministerio de Obras Públicas y de Transporte<br>
+                    Plantel La Lechuza, Carretera a Santa Tecla Km. 5 1/2, San Salvador,<br>
+                    República de El Salvador, C.A.
+                </p>
+            </div>
+            <div class="flex items-start gap-4 text-left">
+                <img src="img/iconos/ICONO  TELEFONO.png" alt="Teléfono" class="w-6 h-auto shrink-0 mt-[3px]">
+                <p class="m-0 leading-snug text-footer-text">(503) 2528-3000</p>
+            </div>
+            <div class="flex items-start gap-4 text-left">
+                <img src="img/iconos/ICONO  CORREO.png" alt="Correo" class="w-6 h-auto shrink-0 mt-[3px]">
+                <p class="m-0 leading-snug text-footer-text">info@mop.gob.sv</p>
+            </div>
+        </div>
+
+        <!-- Centro: Logo Gobierno -->
+        <div class="flex-1 flex justify-center items-center">
+            <!-- Assuming this is the correct logo based on file list. If not, user can swap. -->
+            <img src="img/imagen/logos_mop_GOES_D2.png" alt="Gobierno de El Salvador" class="max-w-[180px] h-auto">
+        </div>
+
+        <!-- Derecha: Redes y Enlaces -->
+        <div class="flex-1 flex flex-col items-center lg:items-end text-center lg:text-right gap-2.5">
+            <span class="text-sm mb-1">Únete a nuestra comunidad</span>
+            <div class="flex gap-4 mb-4">
+                <a href="#"><img src="img/iconos/ICONO X.png" alt="X"
+                        class="h-6 w-auto transition-transform hover:scale-110"></a>
+                <a href="#"><img src="img/iconos/ICONO FB.png" alt="Facebook"
+                        class="h-6 w-auto transition-transform hover:scale-110"></a>
+                <a href="#"><img src="img/iconos/ICONO TIK TOK.png" alt="TikTok"
+                        class="h-6 w-auto transition-transform hover:scale-110"></a>
+                <a href="#"><img src="img/iconos/ICONO  INSTAGRAM.png" alt="Instagram"
+                        class="h-6 w-auto transition-transform hover:scale-110"></a>
+            </div>
+            <div class="flex flex-col gap-1 items-center lg:items-end">
+                <a href="https://www.mop.gob.sv/mapa-del-sitio/"
+                    class="text-footer-text underline text-[13px] hover:text-white">Mapa del Sitio</a>
+                <a href="https://www.mop.gob.sv/politica-web/"
+                    class="text-footer-text underline text-[13px] hover:text-white">Política Web</a>
+                <a href="https://www.mop.gob.sv/preguntas-frecuentes/"
+                    class="text-footer-text underline text-[13px] hover:text-white">Preguntas Frecuentes</a>
+                <a href="https://www.mop.gob.sv/cartas-de-derecho/"
+                    class="text-footer-text underline text-[13px] hover:text-white">Carta de Derecho</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
