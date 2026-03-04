@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+    --color-footer-bg: #2b303b;
+    --color-footer-text: #d1d1d1;
+    --font-poppins: "Poppins", sans-serif;
+}
